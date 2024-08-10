@@ -1,0 +1,33 @@
+.container {
+  max-width: 1320px;
+  padding: 0 12px;
+  margin: 0 auto;
+}
+.d-block{
+  display: block;
+}
+.d-flex{
+  display: flex;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.justify-content-between{
+  justify-content: space-between;
+}
+.align-items-center{
+  align-items: center;
+}
+
+.bg-primary{
+  background-color: $primary;
+}
+
+.mt-2{
+  margin-top: 8px;
+}
+@media (min-width: 768px) {
+  .mt-lg-3{
+    margin-top: 12px;
+  }
+}

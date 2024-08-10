@@ -1,0 +1,16 @@
+.main-wrap{
+  padding-block: 40px;
+  @media (min-width: 768px) {
+    padding-block: 80px;
+  }
+}
+.title-h2{
+  margin-bottom: 24px;
+  padding-left: 16px;
+  font-size: 1.5rem;
+  border-left: 8px solid $primary;
+  @media (min-width: 768px) {
+    margin-bottom: 32px;
+    font-size: 3rem;
+  }
+}

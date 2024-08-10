@@ -1,0 +1,174 @@
+.container {
+  max-width: 1320px;
+  padding: 0 12px;
+  margin: 0 auto;
+}
+.h1{
+  font-size: 4rem;
+}
+.h2{
+  font-size: 3rem;
+}
+.h3{
+  font-size: 2.25rem;
+}
+.h4{
+  font-size: 1.5rem;
+}
+.h5{
+  font-size: 1.25rem;
+}
+.h6{
+  font-size: 1rem;
+}
+.h7{
+  font-size: 0.875rem;
+}
+.fw-700{
+  font-weight: 700;
+}
+.fw-900{
+  font-weight: 700;
+}
+.ff-roboto{
+  font-family: $font-Roboto;
+}
+.font-italic{
+  font-style: italic
+}
+.text-center{
+  text-align: center;
+}
+.text-start{
+  text-align: left;
+}
+.text-white{
+  color: $white;
+}
+.text-primary{
+  color: $primary;
+}
+.text-primary-dark{
+  color: $primary-dark;
+}
+.bg-primary{
+  background-color: $primary;
+}
+.bg-second{
+  background-color: $second;
+}
+.d-block{
+  display: block;
+}
+.d-flex{
+  display: flex;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.justify-content-center{
+  justify-content: center;
+}
+.justify-content-between{
+  justify-content: space-between;
+}
+.justify-content-end{
+  justify-content: flex-end;
+}
+.align-items-center{
+  align-items: center;
+}
+.align-items-end{
+  align-items: flex-end;
+}
+.flex-column{
+  flex-direction: column;
+}
+.gap-2{
+  gap: 8px;
+}
+.mt-2{
+  margin-top: 8px;
+}
+.mt-4{
+  margin-top: 16px;
+}
+.mt-6{
+  margin-top: 24px;
+}
+.mt-12{
+  margin-top: 48px;
+}
+.mb-2{
+  margin-bottom: 8px;
+}
+.mb-6{
+  margin-bottom: 24px;
+}
+.py-4{
+  padding-block: 16px;
+}
+.py-10{
+  padding-block: 40px;
+}
+@media (min-width: 768px) {
+  .d-lg-flex{
+    display: flex;
+  }
+  .mt-lg-3{
+    margin-top: 12px;
+  }
+  .mt-lg-8{
+    margin-top: 32px;
+  }
+  .mb-lg-0{
+    margin-bottom: 0;
+  }
+  .py-lg-20{
+    padding-block: 80px;
+  }
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+.col-12{
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+@media (min-width: 576px) {
+  .col-md-6{
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+@media (min-width: 768px) {
+  .col-lg-3{
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .col-lg-4{
+    width: calc(100% / 3);
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+// button
+.btn-primary{
+  padding: .5rem 1rem;
+  color: $white;
+  background-color: $primary;
+  border: none;
+  &:hover{
+    background-color: $primary-dark;
+  }
+}
+.btn-lg{
+  padding: 1rem;
+}
